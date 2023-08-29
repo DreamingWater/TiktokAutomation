@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Medium_Font";
+  src: url("../../fonts/Hiragino Sans GB W6.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Thin_Font";
+  src: url("../../fonts/Hiragino Sans GB W3.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bold_Font";
+  src: url("../../fonts/bold-app-font.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.hidden {
+  display: none !important;
+}
+
+body {
+  width: 328px;
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Thin_Font", Arial, sans-serif;
+}
+
+section.top-settings-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+section.top-settings-panel .toggle-all-selecting {
+  position: relative;
+  width: 70px;
+  height: 36px;
+  border-radius: 12px;
+}
+section.top-settings-panel .toggle-all-selecting:after {
+  content: "all";
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #404b5f;
+}
+section.top-settings-panel .toggle-all-selecting.all-selected:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section.top-settings-panel .toggle-all-selecting:hover {
+  cursor: pointer;
+}
+section.top-settings-panel .clearing-period .time-period-select, section.top-settings-panel .clearing-period .time-interval-select, section.top-settings-panel .clearing-interval .time-period-select, section.top-settings-panel .clearing-interval .time-interval-select {
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 36px;
+  border: none;
+  border-radius: 12px;
+}
+section.top-settings-panel .clearing-period .time-period-select.open, section.top-settings-panel .clearing-period .time-interval-select.open, section.top-settings-panel .clearing-interval .time-period-select.open, section.top-settings-panel .clearing-interval .time-interval-select.open {
+  border-radius: 10px 10px 0 0;
+  margin-top: 0;
+}
+section.top-settings-panel .clearing-period .time-period-select.open .list, section.top-settings-panel .clearing-period .time-interval-select.open .list, section.top-settings-panel .clearing-interval .time-period-select.open .list, section.top-settings-panel .clearing-interval .time-interval-select.open .list {
+  width: 125px;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  margin-top: 0;
+}
+section.top-settings-panel .clearing-period .time-period-select.open:after, section.top-settings-panel .clearing-period .time-interval-select.open:after, section.top-settings-panel .clearing-interval .time-period-select.open:after, section.top-settings-panel .clearing-interval .time-interval-select.open:after {
+  margin-top: -6px;
+  transform: rotate(-180deg);
+  transform-origin: center center;
+}
+section.top-settings-panel .clearing-period .time-period-select:after, section.top-settings-panel .clearing-period .time-interval-select:after, section.top-settings-panel .clearing-interval .time-period-select:after, section.top-settings-panel .clearing-interval .time-interval-select:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: none;
+  margin-top: -5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: none;
+}
+section.top-settings-panel .options-link {
+  width: 33px;
+  height: 33px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section.top-settings-panel .options-link:hover {
+  cursor: pointer;
+}
+section.top-settings-panel .dark-theme-toggling {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section.top-settings-panel .dark-theme-toggling:hover {
+  cursor: pointer;
+}
+
+section.popular-params-list {
+  margin-bottom: 28px;
+}
+section.popular-params-list li.param-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  padding: 7px 15px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+section.popular-params-list li.param-item:hover {
+  cursor: pointer;
+}
+section.popular-params-list li.param-item:hover .control-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.popular-params-list li.param-item:last-child {
+  margin-bottom: 0;
+}
+section.popular-params-list li.param-item .input-part {
+  position: relative;
+  user-select: none;
+}
+section.popular-params-list li.param-item .input-part .title {
+  margin-left: 38px;
+}
+section.popular-params-list li.param-item .input-part input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+/*section.popular-params-list li.param-item .input-part input:checked ~ .checkmark {*/
+/*  background: url("../../images/icons_light/checked.svg") no-repeat;*/
+/*  background-size: contain;*/
+/*}*/
+section.popular-params-list li.param-item .input-part span.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section.popular-params-list li.param-item .control-elements {
+  display: none;
+}
+section.popular-params-list li.param-item .control-elements .control-item {
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.35;
+}
+section.popular-params-list li.param-item .control-elements .param-page-link {
+  width: 25px;
+  height: 16px;
+  margin-right: 17px;
+}
+section.popular-params-list li.param-item .control-elements .param-page-link {
+  background-image: url("../../images/view_icon.svg");
+}
+section.popular-params-list li.param-item .control-elements .param-page-link:hover {
+  opacity: 1;
+}
+section.popular-params-list li.param-item .control-elements .clear-param {
+  width: 20px;
+  height: 22px;
+  background-image: url("../../images/trash_icon.svg");
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+section.popular-params-list li.param-item .control-elements .clear-param.animated {
+  background-image: url("../../images/ok_color_icon.svg");
+}
+section.popular-params-list li.param-item .control-elements .clear-param.scaled {
+  transform: scale(0);
+}
+section.popular-params-list li.param-item .control-elements .clear-param:hover {
+  opacity: 1;
+}
+
+section.dialog-window {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  box-shadow: 0px 2px 15px 0px #121315;
+}
+section.dialog-window .dialog-window-item {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 288px;
+  height: 160px;
+  padding-top: 36px;
+  border-radius: 25px;
+}
+section.dialog-window .dialog-header {
+  width: 205px;
+  margin: 0 auto 17px;
+  font-family: "Thin_Font", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 20px;
+}
+section.dialog-window .control-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 190px;
+  margin: 0 auto;
+}
+section.dialog-window .control-buttons span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 36px;
+  border-radius: 24px;
+  color: #fff;
+}
+section.dialog-window .control-buttons span.ok {
+  background-color: #3ec839;
+}
+section.dialog-window .control-buttons span.cancel {
+  background-color: #ff5e7a;
+}
+section.dialog-window .control-buttons span:hover {
+  cursor: pointer;
+}
+
+.clear-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 287px;
+  height: 36px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  line-height: 1;
+  color: #fff;
+  background-color: #4AE783;
+  overflow: hidden;
+  font-size: 16px;
+}
+.clear-btn:hover {
+  cursor: pointer;
+}
+.clear-btn .top_layer {
+  position: absolute;
+  left: -60px;
+  width: 60px;
+  height: 36px;
+  transition: left 0.6s ease;
+  object-fit: contain;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 58%, rgba(255, 255, 255, 0.3) 37%, rgba(255, 255, 255, 0));
+}
+.clear-btn .success_img {
+  width: 24px;
+  height: 23px;
+}
+.clear-btn.animated .top_layer {
+  left: 347px;
+}
+
+/*# sourceMappingURL=common.css.map */

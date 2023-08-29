@@ -1,0 +1,76 @@
+body {
+  color: #404b5f;
+}
+
+.logo .header-logo {
+  background: transparent url("../../images/options_icon.svg") center no-repeat;
+}
+.logo .header-title {
+  color: #4AE783;
+}
+.logo .header-title .word_options {
+  color: #404b5f;
+}
+
+section {
+  box-shadow: 0px 0px 30px 0px rgba(240, 240, 241, 0.8);
+  background: #fff;
+}
+section h2 {
+  color: #4AE783;
+}
+section li input[type=checkbox] + label:before {
+  background: url(/images/non_active.svg) center/contain no-repeat;
+}
+section li input[type=checkbox]:checked + label:before {
+  background: url(/images/active.svg) center/contain no-repeat;
+}
+section li input[type=radio] + label:before {
+  background: url(/images/point_empty.svg) center/contain no-repeat;
+}
+section li input[type=radio]:checked + label:before {
+  background: url(/images/point_full.svg) center/contain no-repeat;
+}
+
+section.remove-section .option-item .filters:visited {
+  color: #4AE783;
+}
+section.remove-section .option-item .filters:link {
+  color: #4AE783;
+}
+section.remove-section aside.more-info:before {
+  background: url(/images/info.svg) center/contain no-repeat;
+}
+section.remove-section aside.more-info blockquote {
+  background: white;
+  box-shadow: 2px 3px 8px 2px rgba(85, 98, 112, 0.15);
+}
+section.remove-section aside.more-info blockquote a {
+  color: #4761f2;
+}
+section.remove-section aside.more-options li.suboption {
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 10px;
+}
+section.remove-section aside.more-options li.suboption:last-child {
+  margin-bottom: 0;
+}
+section.remove-section aside.more-options li.suboption input, section.remove-section aside.more-options li.suboption span.domain {
+  border: 2px solid #f0f0f1;
+  color: #404b5f;
+}
+section.remove-section aside.more-options li.suboption span.domain {
+  color: #000;
+}
+section.remove-section aside.more-options li.suboption input.filter-input {
+  color: grey;
+}
+section.remove-section aside.more-options a.add {
+  background: transparent url("../../images/add_icon.svg") no-repeat;
+}
+section.remove-section aside.more-options a.remove {
+  background: transparent url("../../images/remove_icon.svg") no-repeat;
+}
+
+/*# sourceMappingURL=light.css.map */

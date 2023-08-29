@@ -1,0 +1,110 @@
+{
+  "videos": [
+    {
+      "video_path": "F:\\VideosCache\\MakingDirs\\OutputVideos\\combine.mp4",
+      "video_effects": ["temperature","tone","saturation"],
+      "scale": {
+        "x": 1.05,
+        "y": 1.05
+      },
+      "new_track": false
+    },
+    {
+      "video_path": "F:\\VideosCache\\MakingDirs\\InputVideos\\PictureResource\\one.mp4",
+      "video_effects": ["rouguang"],
+      "alpha": 0.05,
+      "rotation": -125,
+      "scale": {
+        "x": 2.2,
+        "y": 2.2
+      },
+      "transform": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "flip": {
+        "horizontal": true,
+        "vertical": false
+      }
+    },
+    {
+      "video_path":"F:\\VideosCache\\MakingDirs\\InputVideos\\PictureResource\\two.mp4",
+      "video_effects": ["rouguang"],
+      "alpha": 0.06,
+      "rotation": 20.0,
+      "scale": {
+        "x": 3.0,
+        "y": 3.0
+      },
+      "transform": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "flip": {
+        "horizontal": true,
+        "vertical": false
+      }
+    },
+    {
+      "video_path": "F:\\VideosCache\\MakingDirs\\InputVideos\\PictureResource\\three.mp4",
+      "video_effects": ["rouguang"],
+      "alpha": 0.05,
+      "rotation": 125,
+      "scale": {
+        "x": 3.0,
+        "y": 3.0
+      },
+      "transform": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "flip": {
+        "horizontal": true,
+        "vertical": false
+      }
+    }
+
+  ],
+  "effects": [
+    {
+      "effect_id": 1,
+      "adjust_params": 0.05
+    },
+    {
+      "effect_id": 0,
+      "adjust_params": 0.06
+    }
+  ],
+  "video_effects": [
+    {
+      "effect_id": 0,
+      "adjust_params": [
+        {
+          "default_value": 1.0,
+          "name": "effects_adjust_background_animation",
+          "value": 0.04
+        },
+        {
+          "default_value": 0.33,
+          "name": "effects_adjust_speed",
+          "value": 0.33
+        }
+      ]
+    },
+    {
+      "effect_id": 1,
+      "adjust_params": [
+        {
+          "default_value": 1.0,
+          "name": "effects_adjust_background_animation",
+          "value": 0.07
+        },
+        {
+          "default_value": 0.33,
+          "name": "effects_adjust_speed",
+          "value": 0.06
+        }
+      ]
+    }
+  ]
+}

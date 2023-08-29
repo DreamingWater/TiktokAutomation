@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Smart Clean Options</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="" id="theme-link">
+    <link rel="stylesheet" href="./css/options/common.css">
+</head>
+<body>
+
+<div id="main" class="hidden">
+	<div class="logo">
+		<div class="header-logo"></div>
+		<div class="header-title"><span class="word_clean">Smart</span><span class="word_guru"> Clean</span></div>
+		<div class="header-title"><span class="word_options">options</span></div>
+	</div>
+
+	<section class="common-settings-section">
+		<h2>Common settings</h2>
+		<ul id="common-settings">
+			<li>
+				<input type="checkbox" name="autorefresh" id="autorefresh"/>
+				<label for="autorefresh">Automatically reload active tab after clearing data</label>
+			</li>
+			<li>
+				<input type="checkbox" name="floatbtn" id="floatbtn"/>
+				<label for="floatbtn">Floating button “Smart Clean” on all pages</label>
+			</li>
+			<li>
+				<input type="checkbox" name="audio" id="audio"/>
+				<label for="audio">Audio plays on data removing</label>
+			</li>
+			<li>
+				<input type="checkbox" name="shortCuts" id="shortCuts"/>
+				<label for="shortCuts">Shortcut to clear Alt + C</label>
+
+			</li>
+		</ul>
+	</section>
+
+	<section class="remove-section">
+		<h2>Data to Remove</h2>
+		<ul id="remove-list">
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="appcache" id="appcache"/>
+				<label for="appcache">App Cache</label>
+				<aside class="more-info">
+					<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache">
+						HTML5 provides an application caching mechanism that lets web-based applications run offline.
+						Developers can use the Application Cache (AppCache) interface to specify resources that the
+						browser should cache and make available to offline users. Applications that are cached load and
+						work correctly even if users click the refresh button when they are offline. &mdash;
+						<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache"
+						   target="_blank">- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="cache" id="cache"/>
+				<label for="cache">Cache</label>
+				<aside class="more-info">
+					<blockquote
+							cite="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1">
+						Text of webpages you've visited in Google Chrome is removed from your computer. Browsers store
+						elements of webpages to speed up the loading of the webpage during your next visit. &mdash;
+						<a href="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1"
+						   target="_blank">- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item cookie-item">
+				<input type="checkbox" name="data_to_remove" value="cookies" id="cookies"/>
+				<label for="cookies">Cookies</label>
+				<a class="filters" href="#cookie-filters">(options)</a>
+				<aside id="cookie-filters" class="more-options">
+					<p class="cookies-clearing-modes">
+						<input type="radio" name="cookies_filter_inclusive" value="yes" id="cookies_filter_inclusive_yes"/>
+						<label for="cookies_filter_inclusive_yes">Only clear the following (fast)</label>
+						<input type="radio" name="cookies_filter_inclusive" value="no" id="cookies_filter_inclusive_no"/>
+						<label for="cookies_filter_inclusive_no">Don't clear the following (slow)</label>
+					</p>
+					<ol></ol>
+					<legend>No filters defined</legend>
+					<p class="add-domain-wrapper">
+						<a href="#" class="add">Add Domain</a>
+					</p>
+				</aside>
+				<aside class="more-info">
+					<blockquote
+							cite="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1">
+						Files stored on your computer by websites you've visited. These files contain user information,
+						such as preferences for websites or profile information. &mdash;
+						<a href="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1"
+						   target="_blank">- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="downloads" id="downloads"/>
+				<label for="downloads">Downloads</label>
+				<aside class="more-info">
+					<blockquote
+							cite="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1">
+						The list of files you've downloaded using Google Chrome is cleared, but the actual files are not
+						removed from your computer. &mdash;
+						<a href="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1"
+						   target="_blank">- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="fileSystems" id="fileSystems"/>
+				<label for="fileSystems">File Systems</label>
+				<aside class="more-info">
+					<blockquote cite="https://developer.chrome.com/apps/fileSystem">[Chrome Apps may use] the
+						chrome.fileSystem API to create, read, navigate, and write to the user's local file system. With
+						this API, Chrome Apps can read and write to a user-selected location. For example, a text editor
+						app can use the API to read and write local documents. [...] &mdash;
+						<a href="https://developer.chrome.com/apps/fileSystem" target="_blank">- Read More</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="formData" id="formData"/>
+				<label for="formData">Form Data</label>
+				<aside class="more-info">
+					<blockquote
+							cite="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1">
+						All your Autofill entries and records of text you've entered on web forms are deleted. &mdash;
+						<a href="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1"
+						   target="_blank">- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="history" id="history"/>
+				<label for="history">History</label>
+				<aside class="more-info">
+					<blockquote
+							cite="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1">
+						Clearing your browsing history specifically deletes the following: Web addresses you've visited
+						from the History page, Cached text of those pages, Snapshots of those pages for images that
+						appear on the New Tab page, Any IP addresses pre-fetched from those pages. &mdash;
+						<a href="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1"
+						   target="_blank">- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="indexedDB" id="indexedDB"/>
+				<label for="indexedDB">Indexed DB</label>
+				<aside class="more-info">
+					<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB is an
+						API for client-side storage of significant amounts of structured data, which also enables high
+						performance searches of this data using indexes. &mdash;
+						<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API" target="_blank">
+							- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="localStorage" id="localStorage"/>
+				<label for="localStorage">Local Storage</label>
+				<aside class="more-info">
+					<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage">DOM Storage
+						[which includes Local Storage] is designed to provide a larger, more secure, and easier-to-use
+						alternative to storing information in cookies. &mdash;
+						<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage" target="_blank">
+							- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="pluginData" id="pluginData"/>
+				<label for="pluginData">Plugin Data</label>
+				<aside class="more-info">
+					<blockquote
+							cite="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1">
+						Any client-side data stored by plug-ins that use the NPAPI ClearSiteData API. &mdash;
+						<a href="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1"
+						   target="_blank">- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="passwords" id="passwords"/>
+				<label for="passwords">Passwords</label>
+				<aside class="more-info">
+					<blockquote
+							cite="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1">
+						Records of usernames and passwords are deleted. If you're using a Mac, your password records are
+						deleted from Keychain Access. &mdash;
+						<a href="https://support.google.com/chrome/answer/95582?p=settings_clear_browsing_data&amp;rd=1"
+						   target="_blank">- Read More
+						</a>
+					</blockquote>
+				</aside>
+			</li>
+			<li class="option-item">
+				<input type="checkbox" name="data_to_remove" value="webSQL" id="webSQL"/>
+				<label for="webSQL">WebSQL</label>
+				<aside class="more-info">
+					<blockquote cite="http://en.wikipedia.org/wiki/Web_SQL_Database">Web SQL Database is a web page API
+						for storing data in databases that can be queried using a variant of SQL. [...] The W3C Web
+						Applications Working Group ceased working on the specification in November 2010, citing a lack
+						of independent implementations (i.e., the use of a database system other than SQLite as the
+						backend) as the reason the specification could not move forward to become a W3C Recommendation.
+						One potential alternative storage standard is IndexedDB. &mdash;
+						<a href="http://en.wikipedia.org/wiki/Web_SQL_Database" target="_blank">- Read More</a>
+					</blockquote>
+				</aside>
+			</li>
+		</ul>
+	</section>
+
+	<section class="time-period-section">
+		<h2>Time Period</h2>
+		<ul id="time-period">
+			<li class="option-item">
+				<input type="radio" name="timeperiod" value="last_hour" id="last_hour"/>
+				<label for="last_hour">Last Hour</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeperiod" value="last_day" id="last_day"/>
+				<label for="last_day">Last Day</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeperiod" value="last_week" id="last_week"/>
+				<label for="last_week">Last Week</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeperiod" value="last_month" id="last_month"/>
+				<label for="last_month">Last Month</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeperiod" value="everything" id="everything"/>
+				<label for="everything">From the begginig times</label>
+			</li>
+		</ul>
+	</section>
+	<section class="time-interval-section">
+		<h2>Automatic Data Remove</h2>
+		<ul id="time-interval">
+			<li class="option-item">
+				<input type="radio" name="timeInterval" value="off" id="off" data-minutes="off" />
+				<label for="off">Off</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeInterval" value="15_minutes" id="15_minutes" data-minutes="15" />
+				<label for="15_minutes">15 minutes</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeInterval" value="30_minutes" id="30_minutes" data-minutes="30" />
+				<label for="30_minutes">30 minutes</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeInterval" value="1_hour" id="1_hour" data-minutes="60" />
+				<label for="1_hour">1 hour</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeInterval" value="2_hours" id="2_hours" data-minutes="120" />
+				<label for="2_hours">2 hours</label>
+			</li>
+			<li class="option-item">
+				<input type="radio" name="timeInterval" value="chrome_start" id="chrome_start" data-minutes="chrome_start" />
+				<label for="chrome_start">Clear When Chrome Start</label>
+			</li>
+		</ul>
+	</section>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/options.js"></script>
+</body>
+</html>

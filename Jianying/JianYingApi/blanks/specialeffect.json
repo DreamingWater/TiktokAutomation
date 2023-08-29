@@ -1,0 +1,71 @@
+{
+  "effects": {
+    "xinghuozhakai": {
+                "adjust_params": [
+                    {
+                        "default_value": 1.0,
+                        "name": "effects_adjust_background_animation",
+                        "value": 0.04
+                    },
+                    {
+                        "default_value": 0.33,
+                        "name": "effects_adjust_speed",
+                        "value": 0.33
+                    }
+                ],
+                "apply_target_type": 2,
+                "apply_time_range": null,
+                "category_id": "7729",
+                "category_name": "氛围",
+                "effect_id": "703243",
+                "formula_id": "",
+                "id": "33A67A87-16AC-44f6-AFD2-2280C0DF8D1D",
+                "keyframe_refs": [],
+                "name": "星火炸开",
+                "path": "C:/Users/Lenovo/AppData/Local/JianyingPro/User Data/Cache/effect/703243/bf25e21e5b4a025e984e2eed0a00345d",
+                "platform": "all",
+                "render_index": 0,
+                "resource_id": "6808838081420988942",
+                "source_platform": 0,
+                "time_range": null,
+                "track_render_index": 0,
+                "type": "video_effect",
+                "value": 1.0,
+                "version": ""
+            },
+    "yinghuo":      {
+                "adjust_params": [
+                    {
+                        "default_value": 1.0,
+                        "name": "effects_adjust_background_animation",
+                        "value": 0.07
+                    },
+                    {
+                        "default_value": 0.33,
+                        "name": "effects_adjust_speed",
+                        "value": 0.0
+                    }
+                ],
+                "apply_target_type": 2,
+                "apply_time_range": null,
+                "category_id": "7729",
+                "category_name": "氛围",
+                "effect_id": "1357502",
+                "formula_id": "",
+                "id": "A73E9D2C-7713-42e0-80F4-437760DEEC2E",
+                "keyframe_refs": [],
+                "name": "萤火",
+                "path": "C:/Users/Lenovo/AppData/Local/JianyingPro/User Data/Cache/effect/1357502/d473ca7fa127312a7651ec1523a6e880",
+                "platform": "all",
+                "render_index": 0,
+                "resource_id": "7006265184050221576",
+                "source_platform": 0,
+                "time_range": null,
+                "track_render_index": 0,
+                "type": "video_effect",
+                "value": 1.0,
+                "version": ""
+            }
+  }
+}
+

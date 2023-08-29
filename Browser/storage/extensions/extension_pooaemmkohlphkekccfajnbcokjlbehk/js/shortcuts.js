@@ -1,0 +1,1 @@
+function clear(){guruBackground.handleClearBtn()}function getStorageData(){return new Promise((t=>{chrome.storage.local.get((e=>{const o=e.shortCuts;t({shortCuts:o})}))}))}chrome.commands.onCommand.addListener((function(t,e){chrome.tabs.update({},(function(e){getStorageData().then((e=>{let o=e.shortCuts;"clear"===t&&o&&clear()}))}))}));

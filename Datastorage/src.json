@@ -1,0 +1,14 @@
+{
+    "Basic":{
+        "JianYing_Path": "D:\\ProgramFiles\\VideoDesign\\Jianying\\JianyingPro",
+        "Screenshot":false,
+        "Install_JianYing":false
+    },
+    "Webhooks":[
+
+    ],
+    "Sources":[
+        { "Position":"Local","Url":"F:\\VideosCache\\MakingDirs\\OutputVideos\\combine.mp4" ,"Webhooks":true , "Audio":true}
+
+    ]
+}

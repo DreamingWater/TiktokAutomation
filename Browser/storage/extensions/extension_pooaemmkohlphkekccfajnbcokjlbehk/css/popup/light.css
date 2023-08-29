@@ -1,0 +1,54 @@
+body {
+  color: #404b5f;
+}
+
+section.top-settings-panel .toggle-all-selecting {
+  background-color: #4AE783;
+}
+section.top-settings-panel .toggle-all-selecting.all-selected:after {
+  background: url("../../images/delete-all-icon.svg") no-repeat;
+}
+section.top-settings-panel .clearing-period .time-period-select, section.top-settings-panel .clearing-period .time-interval-select, section.top-settings-panel .clearing-interval .time-period-select, section.top-settings-panel .clearing-interval .time-interval-select {
+  box-shadow: 0px 2px 15px 0px rgba(215, 220, 228, 0.8);
+}
+section.top-settings-panel .clearing-period .time-period-select.open .list, section.top-settings-panel .clearing-period .time-interval-select.open .list, section.top-settings-panel .clearing-interval .time-period-select.open .list, section.top-settings-panel .clearing-interval .time-interval-select.open .list {
+  box-shadow: 0px 2px 15px 0px rgba(215, 220, 228, 0.8);
+}
+section.top-settings-panel .clearing-period .time-period-select.open .list .option, section.top-settings-panel .clearing-period .time-interval-select.open .list .option, section.top-settings-panel .clearing-interval .time-period-select.open .list .option, section.top-settings-panel .clearing-interval .time-interval-select.open .list .option {
+  border-radius: 0;
+}
+section.top-settings-panel .clearing-period .time-period-select.open .list .option:hover, section.top-settings-panel .clearing-period .time-interval-select.open .list .option:hover, section.top-settings-panel .clearing-interval .time-period-select.open .list .option:hover, section.top-settings-panel .clearing-interval .time-interval-select.open .list .option:hover {
+  background-color: #f5f6f9;
+}
+section.top-settings-panel .clearing-period .time-period-select.open:after, section.top-settings-panel .clearing-period .time-interval-select.open:after, section.top-settings-panel .clearing-interval .time-period-select.open:after, section.top-settings-panel .clearing-interval .time-interval-select.open:after {
+  background-image: url("../../images/arrow_down.svg") no-repeat;
+}
+section.top-settings-panel .clearing-period .time-period-select:after, section.top-settings-panel .clearing-period .time-interval-select:after, section.top-settings-panel .clearing-interval .time-period-select:after, section.top-settings-panel .clearing-interval .time-interval-select:after {
+  background-image: url("../../images/arrow_down.svg");
+}
+section.top-settings-panel .options-link {
+  background-image: url("../../images/icons_light/setting_icon_popup.svg");
+}
+section.top-settings-panel .dark-theme-toggling {
+  background-image: url("../../images/icons_light/dark_theme_icon.svg");
+}
+
+section.popular-params-list li.param-item:hover {
+  box-shadow: 0px 2px 15px 0px rgba(215, 220, 228, 0.8);
+}
+section.popular-params-list li.param-item .input-part .title {
+  margin-left: 38px;
+}
+section.popular-params-list li.param-item .input-part input:checked ~ .checkmark {
+  background: url("../../images/icons_light/checked.svg") no-repeat;
+  background-size: contain;
+}
+section.popular-params-list li.param-item .input-part span.checkmark {
+  background-image: url("../../images/icons_light/not_checked.svg");
+}
+section.dialog-window .dialog-window-item {
+  background-color: #fff;
+  box-shadow: 0px 2px 15px 0px #d7dce4;
+}
+
+/*# sourceMappingURL=light.css.map */

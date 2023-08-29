@@ -1,0 +1,11 @@
+2023-04-22 20:39:03.870 Jy_Warp.py[243] _Export -> Find Control Timeout(10s): {Name: 'ExportOkBtn', ControlType: GroupControl}
+2023-04-22 20:45:33.749 Jy_Warp.py[243] _Export -> Find Control Timeout(10s): {Name: 'ExportOkBtn', ControlType: GroupControl}
+2023-04-22 20:46:11.384 Jy_Warp.py[243] _Export -> Find Control Timeout(10s): {Name: 'ExportOkBtn', ControlType: GroupControl}
+2023-04-22 20:51:40.234 Jy_Warp.py[235] _Export -> Find Control Timeout(10s): {Name: 'ExportOkBtn', ControlType: GroupControl}
+2023-04-22 20:55:01.932 Jy_Warp.py[235] _Export -> Find Control Timeout(10s): {Name: 'ExportOkBtn', ControlType: GroupControl}
+2023-04-22 20:57:14.434 Jy_Warp.py[234] _Export -> Find Control Timeout(10s): {Name: 'ExportOkBtn', ControlType: GroupControl}
+2023-04-22 21:03:44.836 Jy_Warp.py[235] _Export -> Find Control Timeout(10s): {Name: 'ExportOkBtn', ControlType: GroupControl}
+2023-04-22 21:04:47.753 Jy_Warp.py[237] _Export -> Find Control Timeout(10s): {Name: 'ExportOkBtn', ControlType: GroupControl}
+2023-04-22 23:21:31.092 Jy_Warp.py[132] _Close -> Find Control Timeout(10s): {Name: 'windowCloseBtn', ControlType: ButtonControl}
+2023-04-22 23:25:42.179 Jy_Warp.py[132] _Close -> Find Control Timeout(10s): {Name: 'ExportSucceedCloseBtn', ControlType: GroupControl}
+2023-04-22 23:29:12.914 Jy_Warp.py[132] _Close -> Find Control Timeout(10s): {Name: 'ExportSucceedCloseBtn', ControlType: GroupControl}

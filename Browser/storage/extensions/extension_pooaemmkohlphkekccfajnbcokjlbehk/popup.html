@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>popup</title>
+	<link rel="stylesheet" href="" id="theme-link">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/popup/common.css">
+    <script src="js/shortcuts.js"></script>
+</head>
+<body>
+	<main id="main">
+		<section class="top-settings-panel">
+			<div class="toggle-all-selecting" data-action="all-selecting"></div>
+			<div class="clearing-period select hidden">
+				<select class="time-period-select" data-action="set-clear-interval">
+					<option value="last_hour">1 hour</option>
+					<option value="last_day">last day</option>
+					<option value="last_week">last week</option>
+					<option value="last_month">last month</option>
+					<option value="everything">all time</option>
+				</select>
+			</div>
+			<div class="clearing-interval select hidden">
+				<select class="time-interval-select" data-action="set-clear-interval">
+					<option value="off">off</option>
+					<option value="15">each 15m</option>
+					<option value="30">each 30m</option>
+					<option value="60">each 1h</option>
+					<option value="120">each 2h</option>
+					<option value="chrome_start">on start</option>
+				</select>
+			</div>
+			<div class="options-link" data-action="open-options"></div>
+			<div class="dark-theme-toggling" data-action="toggle-theme"></div>
+		</section>
+
+		<section class="popular-params-list">
+			<ul class="params-list">
+				<li class="param-item">
+					<label class="input-part">
+						<span class="title">cache</span>
+						<input type="checkbox" id="cache" />
+						<span class="checkmark"></span>
+					</label>
+					<div class="control-elements">
+						<div class="clear-param control-item" data-param="cache"></div>
+					</div>
+				</li>
+				<li class="param-item">
+					<label class="input-part">
+						<span class="title">cookies</span>
+						<input type="checkbox" id="cookies" />
+						<span class="checkmark"></span>
+					</label>
+					<div class="control-elements">
+						<div class="clear-param control-item" data-param="cookies"></div>
+					</div>
+				</li>
+				<li class="param-item">
+					<label class="input-part">
+						<span class="title">downloads</span>
+						<input type="checkbox" id="downloads" />
+						<span class="checkmark"></span>
+					</label>
+					<div class="control-elements">
+						<div class="param-page-link control-item" data-page_link="chrome://downloads"></div>
+						<div class="clear-param control-item" data-param="downloads"></div>
+					</div>
+				</li>
+				<li class="param-item">
+					<label class="input-part">
+						<span class="title">history</span>
+						<input type="checkbox" id="history" />
+						<span class="checkmark"></span>
+					</label>
+					<div class="control-elements">
+						<div class="param-page-link control-item" data-page_link="chrome://history"></div>
+						<div class="clear-param control-item" data-param="history"></div>
+					</div>
+				</li>
+				<li class="param-item">
+					<label class="input-part">
+						<span class="title">storage</span>
+						<input type="checkbox" id="localStorage" />
+						<span class="checkmark"></span>
+					</label>
+					<div class="control-elements">
+						<div class="clear-param control-item" data-param="localStorage"></div>
+					</div>
+				</li>
+				<li class="param-item">
+					<label class="input-part">
+						<span class="title">passwords</span>
+						<input type="checkbox" id="passwords" />
+						<span class="checkmark"></span>
+					</label>
+					<div class="control-elements">
+						<div class="param-page-link control-item" data-page_link="chrome://settings/passwords"></div>
+						<div class="clear-param control-item" data-param="passwords"></div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<button class="clear-btn">
+			<span class="clear-btn_text">clear</span>
+			<div class="top_layer">
+                <div class="top_layer-left-side"></div>
+                <div class="top_layer-right-side"></div>
+            </div>
+			<img class="success_img hidden" src="images/ok_white_icon.svg" alt="success" />
+		</button>
+
+	</main>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.nice-select.js"></script>
+	<script src="js/popup.js"></script>
+</body>
+</html>

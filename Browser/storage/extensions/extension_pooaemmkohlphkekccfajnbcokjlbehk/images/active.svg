@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="4 8 7 12 13 4"></polyline>
+        <filter x="-16.7%" y="-18.8%" width="133.3%" height="150.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0830219656 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-466.000000, -585.000000)" fill-rule="nonzero">
+            <g id="check" transform="translate(466.000000, 316.000000)">
+                <g id="Group-Copy-4" transform="translate(0.000000, 269.000000)">
+                    <rect id="Rectangle-2-Copy" stroke="#8BA4ED" fill="#4AE783" x="0.5" y="0.5" width="15" height="15" rx="3"></rect>
+                    <g id="Path-3-Copy" stroke-linecap="round" stroke-linejoin="round">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#FFFFFF" stroke-width="2" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

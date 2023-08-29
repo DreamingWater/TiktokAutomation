@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "Medium_Font";
+  src: url("../../fonts/Hiragino Sans GB W6.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Thin_Font";
+  src: url("../../fonts/Hiragino Sans GB W3.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bold_Font";
+  src: url("../../fonts/bold-app-font.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+ol, ul {
+  list-style: none;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.center-align {
+  text-align: center;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Thin_Font", Arial, sans-serif;
+}
+
+div#main {
+  width: 600px;
+  margin: 45px auto 145px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 50px;
+}
+.logo .header-logo {
+  width: 100px;
+  height: 100px;
+}
+.logo .header-title {
+  font-size: 24px;
+  line-height: 1;
+}
+.logo .header-title .word_guru {
+  font-family: "Bold_Font", Arial, sans-serif;
+}
+.logo .header-title .word_options {
+  font-size: 18px;
+}
+
+section {
+  padding: 40px 78px;
+  border-radius: 10px;
+  margin: 0 0 20px 0;
+}
+section h2 {
+  padding-bottom: 20px;
+  font-family: "Bold_Font", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1;
+}
+section li {
+  margin-bottom: 20px;
+  line-height: 1;
+}
+section li:last-child {
+  margin-bottom: 0;
+}
+section li label {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+section li input {
+  display: none;
+}
+section li input[type=checkbox] + label:before {
+  content: "";
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+section li input[type=radio] {
+  display: none;
+}
+section li input[type=radio] + label {
+  user-select: none;
+}
+section li input[type=radio] + label:before {
+  content: "";
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+section li input[type=radio]:checked + label:before {
+  background: url(/images/point_full.svg) center/contain no-repeat;
+}
+
+section.remove-section.option-item {
+  display: block;
+  clear: both;
+  font-weight: 400;
+  margin: 0 0 1em 0;
+  list-style: none;
+}
+section.remove-section.option-item:last-child {
+  margin-bottom: 0;
+}
+section.remove-section.option-item .filters {
+  padding-left: 0.5em;
+}
+section.remove-section li.cookie-item {
+  position: relative;
+}
+section.remove-section li.cookie-item aside.more-info {
+  position: absolute;
+  top: -1px;
+  left: 160px;
+}
+section.remove-section aside.more-info {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  vertical-align: top;
+  overflow: visible;
+  white-space: nowrap;
+}
+section.remove-section aside.more-info:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -2px;
+}
+section.remove-section aside.more-info:hover:after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 10px;
+  top: -14px;
+  background-color: transparent;
+}
+section.remove-section aside.more-info blockquote {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  z-index: 999;
+  padding: 0.5em;
+  width: 350px;
+  white-space: normal;
+  display: none;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+}
+section.remove-section aside.more-info blockquote a {
+  display: block;
+  margin-top: 5px;
+  font-family: "Bold_Font", Arial, sans-serif;
+}
+section.remove-section aside.more-info blockquote:after {
+  content: "";
+  position: absolute;
+  left: -19px;
+  bottom: 0;
+  display: block;
+  width: 0;
+  height: 0;
+  z-index: -1;
+}
+section.remove-section aside.more-info:hover blockquote {
+  display: block;
+}
+section.remove-section aside.more-options {
+  display: none;
+}
+section.remove-section aside.more-options p.cookies-clearing-modes {
+  display: block;
+  margin-left: 29px;
+}
+section.remove-section aside.more-options p.cookies-clearing-modes label {
+  margin-top: 20px;
+  line-height: 1;
+}
+section.remove-section aside.more-options p.cookies-clearing-modes label:last-child {
+  margin-bottom: 10px;
+}
+section.remove-section aside.more-options p.add-domain-wrapper {
+  text-align: center;
+}
+section.remove-section aside.more-options legend {
+  display: none;
+  width: 100%;
+  margin-top: 10px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 100;
+  font-size: 16px;
+}
+section.remove-section aside.more-options ol:empty ~ legend {
+  display: block;
+}
+section.remove-section aside.more-options li.suboption {
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+section.remove-section aside.more-options li.suboption:last-child {
+  margin-bottom: 0;
+}
+section.remove-section aside.more-options li.suboption label {
+  display: block;
+}
+section.remove-section aside.more-options li.suboption input, section.remove-section aside.more-options li.suboption span.domain {
+  display: block;
+  width: 323px;
+  height: 27px;
+  padding: 4px 15px 3px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 1;
+}
+section.remove-section aside.more-options input {
+  width: 100%;
+  border: none;
+  padding: 0 10px;
+  font-family: "Thin_Font", Arial, sans-serif;
+}
+section.remove-section aside.more-options input + a {
+  display: inline-block;
+  line-height: 16px;
+  margin-left: 8px;
+}
+section.remove-section aside.more-options input::placeholder {
+  font-size: 14px;
+  line-height: 1;
+  font-family: "Thin_Font", Arial, sans-serif;
+}
+section.remove-section aside.more-options input.error {
+  background: rgba(255, 0, 0, 0.25) !important;
+}
+section.remove-section aside.more-options a.add {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 10px auto 0 50px;
+  font-size: 0;
+  overflow: hidden;
+  text-indent: -999999px;
+}
+section.remove-section aside.more-options a.add:hover {
+  cursor: pointer;
+}
+section.remove-section aside.more-options a.remove {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-indent: -999999px;
+}
+section.remove-section aside.more-options a.remove:hover {
+  cursor: pointer;
+}
+section.remove-section aside.more-options span.save {
+  height: 18px;
+  width: 18px;
+  margin-left: 10px;
+  background-image: url("chrome-extension://__MSG_@@extension_id__/images/save.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section.remove-section aside.more-options span.save:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=common.css.map */

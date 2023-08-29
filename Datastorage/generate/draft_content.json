@@ -1,0 +1,273 @@
+{
+  "canvas_config": {
+    "height": 831,
+    "ratio": "original",
+    "width": 1920
+  },
+  "color_space": 0,
+  "config": {
+    "adjust_max_index": 1,
+    "attachment_info": [],
+    "combination_max_index": 1,
+    "export_range": null,
+    "extract_audio_last_index": 1,
+    "lyrics_recognition_id": "",
+    "lyrics_sync": true,
+    "lyrics_taskinfo": [],
+    "maintrack_adsorb": true,
+    "material_save_mode": 0,
+    "original_sound_last_index": 1,
+    "record_audio_last_index": 1,
+    "sticker_max_index": 1,
+    "subtitle_recognition_id": "",
+    "subtitle_sync": true,
+    "subtitle_taskinfo": [],
+    "system_font_list": [],
+    "video_mute": false,
+    "zoom_info_params": null
+  },
+  "cover": null,
+  "create_time": 0,
+  "duration": 5966666,
+  "extra_info": null,
+  "fps": 30.0,
+  "free_render_index_mode_on": false,
+  "group_container": null,
+  "id": "C2081AE3-D4C1-479c-A75A-C770220F9BDF",
+  "keyframes": {
+    "adjusts": [],
+    "audios": [],
+    "effects": [],
+    "filters": [],
+    "handwrites": [],
+    "stickers": [],
+    "texts": [],
+    "videos": []
+  },
+  "last_modified_platform": {
+    "app_id": 3704,
+    "app_source": "lv",
+    "app_version": "4.0.1",
+    "device_id": "8747adf817f3fe6c6003c67a4c05d4c6",
+    "hard_disk_id": "446d415043ed72b23fa0abc5442042e4",
+    "mac_address": "f9bd5510a7edb4f819c37d8b57f93979",
+    "os": "windows",
+    "os_version": "10.0.22621"
+  },
+  "materials": {
+    "audio_balances": [],
+    "audio_effects": [],
+    "audio_fades": [],
+    "audios": [],
+    "beats": [],
+    "canvases": [
+      {
+        "album_image": "",
+        "blur": 0.0,
+        "color": "",
+        "id": "920C0EE5-7345-4586-A352-F9213217DC3E",
+        "image": "",
+        "image_id": "",
+        "image_name": "",
+        "source_platform": 0,
+        "team_id": "",
+        "type": "canvas_color"
+      }
+    ],
+    "chromas": [],
+    "color_curves": [],
+    "drafts": [],
+    "effects": [],
+    "green_screens": [],
+    "handwrites": [],
+    "hsl": [],
+    "images": [],
+    "log_color_wheels": [],
+    "manual_deformations": [],
+    "masks": [],
+    "material_animations": [],
+    "placeholders": [],
+    "plugin_effects": [],
+    "primary_color_wheels": [],
+    "realtime_denoises": [],
+    "sound_channel_mappings": [
+      {
+        "audio_channel_mapping": 0,
+        "id": "122EC2F0-E187-4792-B4CE-410040CEA93C",
+        "is_config_open": false,
+        "type": ""
+      }
+    ],
+    "speeds": [
+      {
+        "curve_speed": null,
+        "id": "415A8CDD-E9A4-4042-ADF8-1503A1BD9B58",
+        "mode": 0,
+        "speed": 1.0,
+        "type": "speed"
+      }
+    ],
+    "stickers": [],
+    "tail_leaders": [],
+    "text_templates": [],
+    "texts": [],
+    "transitions": [],
+    "video_effects": [],
+    "video_trackings": [],
+    "videos": [
+      {
+        "audio_fade": null,
+        "cartoon_path": "",
+        "category_id": "",
+        "category_name": "",
+        "check_flag": 63487,
+        "crop": {
+          "lower_left_x": 0.0,
+          "lower_left_y": 1.0,
+          "lower_right_x": 1.0,
+          "lower_right_y": 1.0,
+          "upper_left_x": 0.0,
+          "upper_left_y": 0.0,
+          "upper_right_x": 1.0,
+          "upper_right_y": 0.0
+        },
+        "crop_ratio": "free",
+        "crop_scale": 1.0,
+        "duration": 5966666,
+        "extra_type_option": 0,
+        "formula_id": "",
+        "freeze": null,
+        "gameplay": null,
+        "has_audio": true,
+        "height": 1080,
+        "id": "F679AAA3-6098-43ee-A66F-7D927226B20F",
+        "intensifies_audio_path": "",
+        "intensifies_path": "",
+        "is_unified_beauty_mode": false,
+        "local_id": "",
+        "local_material_id": "",
+        "material_id": "",
+        "material_name": "4月19日.mp4",
+        "material_url": "",
+        "matting": {
+          "flag": 0,
+          "has_use_quick_brush": false,
+          "has_use_quick_eraser": false,
+          "interactiveTime": [],
+          "path": "",
+          "strokes": []
+        },
+        "media_path": "",
+        "object_locked": null,
+        "path": "C:/Users/Lenovo/Desktop/Youtube/4月19日.mp4",
+        "picture_from": "none",
+        "picture_set_category_id": "",
+        "picture_set_category_name": "",
+        "reverse_intensifies_path": "",
+        "reverse_path": "",
+        "source_platform": 0,
+        "stable": null,
+        "team_id": "",
+        "type": "video",
+        "video_algorithm": {
+          "algorithms": [],
+          "deflicker": null,
+          "motion_blur_config": null,
+          "noise_reduction": null,
+          "path": "",
+          "time_range": null
+        },
+        "width": 2496
+      }
+    ]
+  },
+  "mutable_config": null,
+  "name": "",
+  "new_version": "71.0.0",
+  "platform": {
+    "app_id": 3704,
+    "app_source": "lv",
+    "app_version": "4.0.1",
+    "device_id": "8747adf817f3fe6c6003c67a4c05d4c6",
+    "hard_disk_id": "446d415043ed72b23fa0abc5442042e4",
+    "mac_address": "f9bd5510a7edb4f819c37d8b57f93979",
+    "os": "windows",
+    "os_version": "10.0.22621"
+  },
+  "relationships": [],
+  "render_index_track_mode_on": false,
+  "retouch_cover": null,
+  "source": "default",
+  "static_cover_image_path": "",
+  "tracks": [
+    {
+      "attribute": 0,
+      "flag": 0,
+      "id": "66660E50-250C-4bb5-AD6A-76CBE46798E9",
+      "segments": [
+        {
+          "cartoon": false,
+          "clip": {
+            "alpha": 1.0,
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            },
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          "enable_adjust": true,
+          "enable_color_curves": true,
+          "enable_color_wheels": true,
+          "enable_lut": true,
+          "enable_smart_color_adjust": false,
+          "extra_material_refs": [
+            "415A8CDD-E9A4-4042-ADF8-1503A1BD9B58",
+            "920C0EE5-7345-4586-A352-F9213217DC3E",
+            "122EC2F0-E187-4792-B4CE-410040CEA93C"
+          ],
+          "group_id": "",
+          "hdr_settings": {
+            "intensity": 1.0,
+            "mode": 1,
+            "nits": 1000
+          },
+          "id": "1F582A7F-5167-4f4a-B3E5-F8E5D8061BB7",
+          "intensifies_audio": false,
+          "is_placeholder": false,
+          "is_tone_modify": false,
+          "keyframe_refs": [],
+          "last_nonzero_volume": 1.0,
+          "material_id": "F679AAA3-6098-43ee-A66F-7D927226B20F",
+          "render_index": 0,
+          "reverse": false,
+          "source_timerange": {
+            "duration": 5966666,
+            "start": 0
+          },
+          "speed": 1.0,
+          "target_timerange": {
+            "duration": 5966666,
+            "start": 0
+          },
+          "template_id": "",
+          "template_scene": "default",
+          "track_attribute": 0,
+          "track_render_index": 0,
+          "visible": true,
+          "volume": 1.0
+        }
+      ],
+      "type": "video"
+    }
+  ],
+  "update_time": 0,
+  "version": 360000
+}

@@ -1,0 +1,69 @@
+body {
+  color: #eeedf9;
+  background-color: #1f2129;
+}
+
+#main section.top-settings-panel .toggle-all-selecting:after {
+  color: #1f2129;
+}
+
+section.top-settings-panel .toggle-all-selecting {
+  background-color: #4AE783;
+  box-shadow: 0px 2px 15px 0px rgba(18, 19, 21, 0.5);
+}
+section.top-settings-panel .toggle-all-selecting.all-selected:after {
+  background: url("../../images/delete-all-icon.svg") no-repeat;
+}
+section.top-settings-panel .clearing-period .time-period-select, section.top-settings-panel .clearing-period .time-interval-select, section.top-settings-panel .clearing-interval .time-period-select, section.top-settings-panel .clearing-interval .time-interval-select {
+  background-color: #2a2f38;
+  box-shadow: 0px 2px 15px 0px rgba(18, 19, 21, 0.5);
+}
+section.top-settings-panel .clearing-period .time-period-select.open .list, section.top-settings-panel .clearing-period .time-interval-select.open .list, section.top-settings-panel .clearing-interval .time-period-select.open .list, section.top-settings-panel .clearing-interval .time-interval-select.open .list {
+  background-color: #2a2f38;
+}
+section.top-settings-panel .clearing-period .time-period-select.open .list:hover, section.top-settings-panel .clearing-period .time-interval-select.open .list:hover, section.top-settings-panel .clearing-interval .time-period-select.open .list:hover, section.top-settings-panel .clearing-interval .time-interval-select.open .list:hover {
+  background-color: #2a2f38;
+}
+section.top-settings-panel .clearing-period .time-period-select.open .list .option, section.top-settings-panel .clearing-period .time-interval-select.open .list .option, section.top-settings-panel .clearing-interval .time-period-select.open .list .option, section.top-settings-panel .clearing-interval .time-interval-select.open .list .option {
+  border-radius: 0;
+  background-color: #2a2f38;
+}
+section.top-settings-panel .clearing-period .time-period-select.open .list .option:hover, section.top-settings-panel .clearing-period .time-interval-select.open .list .option:hover, section.top-settings-panel .clearing-interval .time-period-select.open .list .option:hover, section.top-settings-panel .clearing-interval .time-interval-select.open .list .option:hover {
+  background-color: #3c3f4d;
+}
+section.top-settings-panel .clearing-period .time-period-select.open:after, section.top-settings-panel .clearing-period .time-interval-select.open:after, section.top-settings-panel .clearing-interval .time-period-select.open:after, section.top-settings-panel .clearing-interval .time-interval-select.open:after {
+  background-image: url("../../images/arrow_down.svg") no-repeat;
+}
+section.top-settings-panel .clearing-period .time-period-select:after, section.top-settings-panel .clearing-period .time-interval-select:after, section.top-settings-panel .clearing-interval .time-period-select:after, section.top-settings-panel .clearing-interval .time-interval-select:after {
+  background-image: url("../../images/arrow_down.svg");
+}
+section.top-settings-panel .options-link {
+  background-image: url("../../images/icons_dark/setting_icon_popup.svg");
+}
+section.top-settings-panel .dark-theme-toggling {
+  background-image: url("../../images/icons_dark/light_theme_icon.svg");
+}
+
+section.popular-params-list li.param-item:hover {
+  background-color: #2a2f38;
+  box-shadow: 0px 2px 15px 0px rgba(18, 19, 21, 0.5);
+}
+section.popular-params-list li.param-item .input-part .title {
+  margin-left: 38px;
+}
+section.popular-params-list li.param-item .input-part input:checked ~ .checkmark {
+  background: url("../../images/icons_dark/checked.svg") no-repeat;
+  background-size: contain;
+}
+section.popular-params-list li.param-item .input-part span.checkmark {
+  background-image: url("../../images/icons_dark/not_checked.svg");
+}
+section.dialog-window .dialog-window-item {
+  background-color: #2a2f38;
+}
+
+.clear-btn {
+  box-shadow: 0px 2px 15px 0px rgba(18, 19, 21, 0.5);
+}
+
+/*# sourceMappingURL=dark.css.map */

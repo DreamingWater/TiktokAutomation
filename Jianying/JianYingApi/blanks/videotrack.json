@@ -1,0 +1,59 @@
+{
+  "track": {
+    "video": {
+      "cartoon": false,
+      "clip": {
+        "alpha": 0.0,
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "rotation": 0.0,
+        "scale": {
+          "x": 0.34,
+          "y": 0.34
+        },
+        "transform": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enable_adjust": true,
+      "enable_color_curves": true,
+      "enable_color_wheels": true,
+      "enable_lut": true,
+      "enable_smart_color_adjust": false,
+      "extra_material_refs": [],
+      "group_id": "",
+      "hdr_settings": {
+        "intensity": 1.0,
+        "mode": 1,
+        "nits": 1000
+      },
+      "id": "",
+      "intensifies_audio": false,
+      "is_placeholder": false,
+      "is_tone_modify": false,
+      "keyframe_refs": [],
+      "last_nonzero_volume": 1.0,
+      "material_id": "",
+      "render_index": 1,
+      "reverse": false,
+      "source_timerange": {
+        "duration": 178176666,
+        "start": 0
+      },
+      "speed": 0.9,
+      "target_timerange": {
+        "duration": 198000000,
+        "start": 166666
+      },
+      "template_id": "",
+      "template_scene": "default",
+      "track_attribute": 1,
+      "track_render_index": 0,
+      "visible": true,
+      "volume": 1.0
+    }
+  }
+}

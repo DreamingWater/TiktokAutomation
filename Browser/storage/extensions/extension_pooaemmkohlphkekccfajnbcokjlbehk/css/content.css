@@ -1,0 +1,13 @@
+
+.inserted-btn.mtz {
+    position: fixed !important;
+    bottom: 15px !important;
+    right: 30px !important;
+    width: 4vw !important;
+    height: 4vw !important;
+    z-index: 1000000000000 !important;
+    transition: all .4s ease-in-out;
+}
+.inserted-btn.mtz:hover {
+    cursor: pointer !important;
+}

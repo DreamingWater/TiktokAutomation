@@ -1,0 +1,87 @@
+body {
+  color: #eeedf9;
+  background-color: #1f2129;
+}
+
+.logo .header-logo {
+  background: transparent url("../../images/options_icon.svg") center no-repeat;
+}
+.logo .header-title {
+  color: #4AE783;
+}
+.logo .header-title .word_options {
+  color: #eeedf9;
+}
+
+section {
+  background-color: #2a2f38;
+  box-shadow: 0px 0px 30px 0px rgba(18, 19, 21, 0.49);
+}
+section h2 {
+  color: #4AE783;
+}
+section li input[type=checkbox] + label:before {
+  background: url(../../images/icons_dark/not_checked.svg) center/contain no-repeat;
+}
+section li input[type=checkbox]:checked + label:before {
+  background: url(../../images/icons_dark/checked.svg) center/contain no-repeat;
+}
+section li input[type=radio] + label:before {
+  background: url(../../images/icons_dark/point_empty.svg) center/contain no-repeat;
+}
+section li input[type=radio]:checked + label:before {
+  background: url(../../images/icons_dark/point_full.svg) center/contain no-repeat;
+}
+
+section.remove-section .option-item .filters {
+  color: #4AE783;
+}
+section.remove-section .option-item .filters:visited {
+  color: #4AE783;
+}
+section.remove-section .option-item .filters:link {
+  color: #4AE783;
+}
+section.remove-section aside.more-info:before {
+  background: url(../../images/info.svg) center/contain no-repeat;
+}
+section.remove-section aside.more-info blockquote {
+  background: #4d5979;
+  box-shadow: 2px 3px 8px 2px rgba(85, 98, 112, 0.15);
+}
+section.remove-section aside.more-info blockquote a {
+  color: #4761f2;
+}
+section.remove-section aside.more-options li.suboption {
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 10px;
+}
+section.remove-section aside.more-options li.suboption:last-child {
+  margin-bottom: 0;
+}
+section.remove-section aside.more-options li.suboption input, section.remove-section aside.more-options li.suboption span.domain {
+  border: 2px solid #4c5777;
+  background-color: #2a2f38;
+}
+section.remove-section aside.more-options li.suboption input {
+  color: #4c5777;
+}
+section.remove-section aside.more-options li.suboption input::placeholder {
+  color: #4c5777;
+  line-height: 1;
+}
+section.remove-section aside.more-options li.suboption span.domain {
+  color: #fff;
+}
+section.remove-section aside.more-options input.error {
+  background: rgba(255, 0, 0, 0.25);
+}
+section.remove-section aside.more-options a.add {
+  background: transparent url("../../images/add_icon.svg") no-repeat;
+}
+section.remove-section aside.more-options a.remove {
+  background: transparent url("../../images/remove_icon.svg") no-repeat;
+}
+
+/*# sourceMappingURL=dark.css.map */
